@@ -42,8 +42,27 @@ body {
   align-items: center;
 }
 
+a { text-decoration: none; }
+
 h1 {
   margin: 0;
-  font: 4rem "Roboto";
+  font: 4rem "Roboto", sans-serif;
 }
 h1, h2 { text-shadow: 1px 2px 2px #333; }
+
+nav { margin: 1rem auto; }
+a.button {
+  width: 10rem;
+  color: #eee;
+  margin: auto 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  transition: all 250ms ease;
+}
+a.button:hover {
+  color: #333;
+  background-color: #eee;
+}
